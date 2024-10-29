@@ -1,0 +1,462 @@
+fieldset {background: #EAF3FA; border: none;}
+fieldset legend {padding: 0; font-weight: bold;}
+.wp-admin {background: #ccc;}
+a { color: #346;}
+a:hover { color: #689;}
+a:active, a:focus { outline: none; }
+input[type=button]:hover {cursor:pointer;}
+input[type=submit]:hover { color: #333; cursor:pointer;}
+input.button-secondary {}
+input.button-secondary.delete:hover {}
+#wphead {background: none; margin-top: 0; width: 100%; margin: 0 auto; border: none; border-top: 4px solid #464646;}
+#wphead h1 {font-family: "Helvetica Neue Light", Helvetica !important; background: #2683AE; color: #fff; padding: 10px 10px 10px 15px; margin: 0 auto;}
+#wphead h1 #viewsite {position: absolute; top: 10px;}
+#wphead h1 #viewsite a { background: none; border: none; color: #fff; font-weight: bold; background: #464646;}
+#wphead h1 #viewsite a:hover {}
+#user_info {background: #464646; position: absolute; right: 16px !important; top: 0;font-size: 11px;}
+#user_info p {margin: 8px;}
+#user_info a {text-decoration: none; font-weight: bold;}
+#user_info a:hover {}
+#minisub {height: 0;}
+
+#submenu {padding: 0;}
+#submenu li {	padding: 0 0 8px 8px;}
+#submenu li a {}
+#submenu li a:hover {}
+#submenu li:first-child a{}
+#submenu li:first-child a:hover{}
+#submenu li a.current {}
+.updated, .error, #wpbody #message {float: right; margin: 0; border: none; background: #ffffbc; margin-right: 15px;}
+.updated p a, .error p a {}
+
+.widget-liquid-left-holder, widget-liquid-right {background: #fff;}
+#widget-controls {margin: 100px 0;}
+#current-widgets {list-style-type: none;}
+.wrap {padding: 10px; font-family: Arial; max-width: 100%; background: #fff;}
+.wrap #rightnow {padding: 0;}
+.wrap #rightnow .reallynow { padding: 3px 0 0 0; background: #ccc;}
+.wrap #rightnow .reallynow span {font-size: 13px !important; color: #333;}
+.wrap #rightnow .reallynow .rbutton {margin: 0; background: #ccc;}
+.wrap #rightnow .reallynow .rbutton:hover {}
+.wrap #rightnow p {}
+.wrap #rightnow p+p+p {}
+.wrap #rightnow p a {}
+.wrap #rightnow p a:hover {}
+.wrap #rightnow p .rbutton {}
+.wrap #rightnow p .rbutton:hover {}
+.wrap #rightnow .youhave {font-size: 12px !important; margin: 0;}
+.wrap div.dashboard-widget-holder,
+.wrap #dashboard-widgets-wrap {margin: 0;}
+.wrap #dashboard-widgets {}
+.wrap #dashboard-widgets div .dashboard-widget {font-size: 12px; padding: 0; margin-bottom: 5px;}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-title {margin: 0;background: #ccc;}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-title span {background: #ccc;}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-title small {background: #ccc;}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-title small a {background: #ccc; text-decoration: none; font-size: 11px;}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-title small img.rss-icon {}
+.wrap #dashboard-widgets div .dashboard-widget .dashboard-widget-content {}
+#dashboard-widgets #dashboard_recent_comments div.dashboard-widget .dashboard-widget-title small a {}
+#dashboard-widgets #dashboard_recent_comments div.dashboard-widget .dashboard-widget-content ul {padding: 0; list-style-type: none;}
+#dashboard-widgets #dashboard_recent_comments div.dashboard-widget .dashboard-widget-content .comment-meta {}
+#dashboard-widgets #dashboard_recent_comments div.dashboard-widget .dashboard-widget-content p.comment-meta {text-align: right;}
+#dashboard-widgets #dashboard_incoming_links div.dashboard-widget,
+#dashboard-widgets #dashboard_plugins div.dashboard-widget {margin-right: 0;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget {height: auto; margin-right: 0;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content {margin: 0; height: auto;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content br.clear {display:none;}
+
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content ul li {width: 90%; padding: 5px; margin: 0;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content ul li .post {padding: 0 !important; height: 20px; font-family: Arial; font-size: 16px;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content ul li a {border: none; background: #fff; padding: 0; margin: 0;}
+#dashboard-widgets #dashboard_secondary div.dashboard-widget-content ul li:first-child {border-top: none;}
+.wrap h2 {font-family: "Helvetica Neue Light", Helvetica; padding-left: 4px; margin-bottom: 5px;}
+.wrap .bordertitle {border: none;padding: 0;}
+.wrap .bordertitle h2 {}
+.wrap p#post-search,
+.wrap p#widget-search {	top: 0px;}
+.wrap form#themeselector {bottom: 40px; padding: 0;}
+.wrap p#post-search #post-search-input,
+.wrap p#widget-search #widget-search-input,
+.wrap form#themeselector select#theme {	border: 1px solid #CCC;}
+.wrap form#themeselector select#theme {padding: 2px !important;	margin: 1px !important;}
+.wrap p#post-search input[type=submit],
+.wrap p#widget-search input[type=submit],
+.wrap form#themeselector input[type=submit] {
+	border: 1px solid #CCC;
+	color: #666;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding: 2px 6px;
+}
+.wrap form .subsubsub {margin-top: 0;}
+.wrap form .subsubsub li {margin-right: 5px;}
+.wrap form .subsubsub li a {color: #666;}
+.wrap form .subsubsub li a.current {color: #333;}
+.wrap form .subsubsub li a:hover {color: #999;}
+.wrap .tablenav {background: none; border: none; margin: 0; padding: 0 0 5px; }
+.wrap .tablenav input[type="submit"],
+.wrap .tablenav a.button-secondary {background: none; border: none; margin-top: 4px;}
+.wrap .tablenav a.button-secondary.delete:hover,
+.wrap .tablenav input.button-secondary.delete:hover {}
+.wrap .tablenav select {padding: 2px;font-size: 13px;}
+.wrap .tablenav .alignleft {}
+.wrap .widefat {	border: none;}
+.wrap .widefat thead {}
+.wrap .widefat thead th {
+	border-bottom: 1px solid #444;
+	padding: 5px 0;
+	background-color: #666;
+}
+.wrap .widefat tbody {	border: 1px solid #DDD;}
+.wrap .widefat tbody td {border-bottom: 1px solid #DDD; padding: 5px 0;}
+.wrap .widefat tbody td+td {text-align: left !important;}
+.wrap .widefat tbody th {
+	border-bottom: 1px solid #DDD;
+	padding: 5px 0;
+}
+.wrap .widefat tbody td a {color: #356;}
+.wrap .widefat tbody td a:hover {color: #689;}
+.wrap .widefat .post-com-count-wrapper {width: 22px;}
+.wrap .widefat tbody td a.post-com-count,
+.wrap .widefat tbody td a.post-com-count .comment-count {}
+.wrap .widefat thead th img.comment-column {
+	margin-left:0;
+	margin-bottom: -2px;
+	margin-right: 10px;
+}
+.wrap .widefat thead th+th,
+.wrap .widefat thead th+th div {text-align: left !important;}
+.wrap h2 + p + .tablenav + br + .widefat thead th {	padding-left: 10px;	padding-right: 10px;}
+.wrap h2 + p + .tablenav + br + .widefat thead th+th {	padding-left: 0;}
+.wrap .widefat tbody td.import-system {	padding-left: 10px;}
+.wrap .widefat #plugins .name {padding: 8px;}
+.wrap .widefat #plugins tr.active, #plugins .active span {background: #cdf !important;}
+#update-nag {border: none; background: none; float: right; padding-right: 30px;}
+.plugin-update {background: #eee; border: none;}
+.plugin-update a {font-weight: bold;}
+.desc cite {font-style: normal;}
+.desc cite a {font-weight: bold;}
+.wrap .widefat #the-comment-list a {color: #356; border-bottom: none;}
+.wrap .widefat #the-comment-list a:hover {color: #689;}
+.wrap + .wrap p {margin-top: 0;}
+.wrap ul.view-switch {
+	margin-top: -30px;
+	margin-right: 0;
+	position: relative;
+	z-index: 1000;
+}
+.wrap ul.view-switch li {}
+.wrap ul.view-switch li.current {	background-color: #EEE; border-bottom: 1px solid #EEE;margin-bottom: -1px;}
+.wrap ul.view-switch li a {color: #333; padding:6px;}
+.wrap ul.view-switch li a:hover {color: #666;}
+.wrap #posts-filter .updated {margin-left: 0; border: 1px solid #E6DB55; margin-bottom: 10px;}
+.wrap #posts-filter .updated a {border-bottom: none;}
+.wrap .check-column input {margin: 0 5px;}
+#akismetsearch {
+	position: absolute;
+	right: 15px;
+	top: -128px;
+}
+#akismetsearch input[type=text] {border: 1px solid #CCC;}
+#akismetsearch input[type=submit] {}
+.wrap .akismet-tabs {}
+.wrap .akismet-tabs li {
+}
+.wrap .akismet-tabs li a {	}
+.wrap .akismet-tabs li a:hover {
+	color: #666;
+}
+.wrap ul#spam-list {}
+.wrap h2 + p + form input[type=submit],
+.wrap + .wrap p + ul + form + form + form p input[type="submit"] {}
+.wrap #template textarea#newcontent {border: 1px solid #ccc;}
+.wrap #templateside {
+	width: 200px;
+	margin-top: -36px;
+}
+.wrap #templateside h3#bordertitle {
+}
+.wrap #templateside h4 {}
+.wrap #templateside ul, .wrap #templateside ol {} 
+.wrap #templateside ul li a span.highlight,
+.wrap #templateside ol li a span.highlight {}
+.submit {}
+input {	}
+.submit input[type=submit] {background: #464646; color: #ccc; border: none;}
+.submit input[type=submit]:hover {background: #2683AE; color: #fff; border: none;}
+.form-table {
+	margin: 0;
+}
+
+.options {border: none;}
+.options legend {font-weight: bold; margin: 5px 0 0 0;}
+
+.form-table th {}
+.form-table td {}
+.form-table td input[type=text],
+.form-table td input[type=password],
+.form-table td textarea,
+.form-table td select {
+	border: 1px solid #999;
+}
+.form-table td select {
+	padding: 3px;
+}
+.form-table td p {
+	margin: 0;
+}
+.form-table th label input[type=radio],
+.form-table td p input[type=radio] {
+	position: relative;
+	top: 2px;
+}
+.form-table td ul {
+	margin: 5px 0 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px;
+}
+.form-table td ul li {
+	margin: 0;
+}
+.wrap p {
+	font-size: 12px;
+}
+#addcat .form-table td,
+#editcat .form-table td {
+	font-size:11px;
+}
+.submitbox {	z-index: 7000;}
+.submitbox #previewview {}
+.submitbox #previewview a {}
+.submitbox #previewview a:hover {
+	color: #333;
+	background-color: #CCC;
+}
+#poststuff .submitbox .inside {
+	margin:0;
+}
+#save-post, #publish {background: #2683AE; border: none; color: #fff;}
+#save-post:hover , #publish:hover {background: #D54E21;}
+.submitbox .inside p {
+	padding: 8px 10px;
+	margin-top:0;
+	border-bottom: 1px solid #dadada;
+	background-color: #EEE;
+}
+.submitbox .inside p+p {}
+.submitbox .inside p+p select {
+	margin:0;
+}
+.submitbox .inside #timestampdiv {}
+.submitbox .inside #timestampdiv input {
+	border: 1px solid #CCC;
+}
+
+.submitbox p.submit {
+}
+.submitbox p.submit input[type=submit] {}
+.submitbox p.submit a {}
+.submitbox p.submit a:hover {
+	color: #333;
+}
+.submitbox p.submit a.submitdelete:hover {}
+.submitbox p.submit br {}
+.submitbox .side-info ul {list-style-type: none; padding: 0; margin: 0 5px;}
+.submitbox .side-info {background: #eee;}
+.submitbox ul {	margin: 0px 10px;}
+#poststuff #autosave div.updated {}
+#poststuff #autosave div.error {}
+#poststuff #post-body{}
+#poststuff #titlediv h3 {margin-bottom: 0;}
+#poststuff #titlewrap {border-top: 1px solid #CEE1EF;}
+#poststuff .postbox h3, #titlediv h3, #poststuff .postarea h3, #poststuff .stuffbox h3 {}
+#poststuff .postbox.closed h3 {}
+#poststuff .postbox .inside, #titlediv .inside, #poststuff .postarea .inside, #poststuff .stuffbox .inside {background: #eee;}
+#poststuff .postbox .inside input[type="text"], #titlediv .inside input[type="text"], #poststuff .postarea .inside input[type="text"], #poststuff .stuffbox .inside input[type="text"] {}
+#poststuff .inside #edit-slug-box strong {}
+#edit-slug-box #editable-post-name #new-post-slug {}
+#edit-slug-box #edit-slug-buttons a.save {}
+#edit-slug-box #edit-slug-buttons a.cancel {}
+#poststuff #quicktags {}
+#poststuff #quicktags .ed_button {border: none; background: none;}
+#poststuff #quicktags .ed_button:hover {background: #eee;}
+#poststuff .togbox {}
+#poststuff .togbox:hover {}
+#poststuff .closed .togbox {}
+#poststuff .closed .togbox:hover {}
+#poststuff #tagsdiv .inside #jaxtag {}
+#poststuff #tagsdiv .inside #tagchecklist {}
+#poststuff #tagsdiv .inside #tagchecklist span a {}	
+#poststuff #tagsdiv .inside #ajaxtag input#newtag {}
+#poststuff #categorydiv .inside #category-adder h4,
+#poststuff #linkcategorydiv .inside #category-adder h4 {}
+#poststuff #categorydiv .inside #category-adder h4 a,
+#poststuff #linkcategorydiv .inside #category-adder h4 a {}
+#poststuff #categorydiv .inside #category-adder h4 a:hover,
+#poststuff #linkcategorydiv .inside #category-adder h4 a:hover {}
+#poststuff #categorydiv .inside #category-adder #category-add,
+#poststuff #linkcategorydiv .inside #category-adder #link-category-add {}
+#poststuff #tagsdiv .inside #ajaxtag input[type=button],
+#poststuff #categorydiv .inside #category-adder #category-add input[type=button],
+#poststuff #linkcategorydiv .inside #category-adder #link-category-add input[type=button] {}
+#poststuff #categorydiv .inside #category-adder #category-add select {}
+#poststuff #categorydiv .inside #category-tabs li,
+#poststuff #linkcategorydiv .inside #category-tabs li {}
+#poststuff #categorydiv .inside #category-tabs li a,
+#poststuff #linkcategorydiv .inside #category-tabs li a {}
+#poststuff #categorydiv .inside #category-tabs li.ui-tabs-selected,
+#poststuff #linkcategorydiv .inside #category-tabs li.ui-tabs-selected {}
+#poststuff #categorydiv .inside #category-tabs li.ui-tabs-selected a,
+#poststuff #linkcategorydiv .inside #category-tabs li.ui-tabs-selected a {}
+#poststuff #categorydiv .inside .ui-tabs-panel,
+#poststuff #linkcategorydiv .inside .ui-tabs-panel {}
+#poststuff #linktargetdiv .inside label {}
+#poststuff #linktargetdiv .inside label input {}
+#poststuff #linkxfndiv .inside table,
+#poststuff #linkadvanceddiv .inside table {}
+#poststuff #linkxfndiv .inside table th,
+#poststuff #linkadvanceddiv .inside table th {}
+#poststuff #linkxfndiv .inside table td,
+#poststuff #linkadvanceddiv .inside table td {}
+#poststuff #linkxfndiv .inside table td table th {}
+#poststuff #linkxfndiv .inside table td table td {}
+#poststuff #linkxfndiv .inside table td input[type=radio] {}
+#poststuff #linkxfndiv .inside table td table td label,
+#poststuff #commentstatusdiv .inside label.selectit,
+#poststuff #pagecommentstatusdiv .inside label.selectit {}
+#poststuff #postcustom .inside table,
+#poststuff #pagepostcustom .inside table {}
+#poststuff #postcustom .inside table td textarea,
+#poststuff #pagepostcustom .inside table td textarea,
+#poststuff #linkadvanceddiv .inside table td textarea {}
+#poststuff #postexcerpt .inside textarea {}
+#poststuff #postcustom .inside table td,
+#poststuff #pagepostcustom .inside table td,
+#poststuff #postcustom .inside p,
+#poststuff #pagepostcustom .inside p {}
+#poststuff #postcustom .inside p strong,
+#poststuff #pagepostcustom .inside p strong {}
+#poststuff #postcustom .inside table td #addmetasub,
+#poststuff #pagepostcustom .inside table td #addmetasub {margin-bottom: 0;}
+#poststuff #trackbacksdiv .inside input#trackback {}
+#poststuff #postcustom .inside #postcustomstuff table td select#metakeyselect,
+#poststuff #pagepostcustom .inside #postcustomstuff table td select#metakeyselect {}
+#poststuff #postcustom .inside #postcustomstuff table tr.submit td,
+#poststuff #pagepostcustom .inside #postcustomstuff table tr.submit td {}
+#poststuff #postcustom .inside #postcustomstuff table,
+#poststuff #pagepostcustom .inside #postcustomstuff table {}
+#poststuff #postcustom .inside #postcustomstuff table thead th,
+#poststuff #postcustom .inside #postcustomstuff table tbody th,
+#poststuff #pagepostcustom .inside #postcustomstuff table thead th,
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody th {}
+#poststuff #postcustom .inside #postcustomstuff table tbody td,
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td {}
+#poststuff #postcustom .inside #postcustomstuff table tbody td input[type=text],
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td input[type=text] {width: 95%;}
+#poststuff #postcustom .inside #postcustomstuff table tbody td input[type=submit],
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td input[type=submit] {}
+#poststuff #postcustom .inside #postcustomstuff table tbody td input[type=submit].updatemeta,
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td input[type=submit].updatemeta {}
+#poststuff #postcustom .inside #postcustomstuff table tbody td input[type=submit].deletemeta,
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td input[type=submit].deletemeta {}
+#poststuff #postcustom .inside #postcustomstuff table tbody td input[type=submit].deletemeta:hover,
+#poststuff #pagepostcustom .inside #postcustomstuff table tbody td input[type=submit].deletemeta:hover {}
+.available-theme {}
+.available-theme h3 {}
+.available-theme h3	a {}
+.available-theme h3	a:hover {} 
+.available-theme a.screenshot {}
+.available-theme p {}
+.available-theme p a {
+body div#media-upload-header {}
+body div#media-upload-header h3 {}
+body div#media-upload-header ul {}
+body form.media-upload-form {}
+body form.media-upload-form #flash-upload-ui input#flash-browse-button {}
+body form#filter #search-filter {}
+body form#filter #search-filter input[type=text] {}
+body form#filter #search-filter input[type=submit] {}
+body form#filter {}
+body form#filter .tablenav {}
+body form#filter .tablenav input#post-query-submit {}
+body form#filter .tablenav select {}
+body div#media-items,
+body div#media-items .media-item {}
+body div#media-items .media-item {}
+body div#media-items .media-item .progress {}
+body div#media-items .media-item table.describe {}
+body div#media-items .media-item table.describe td input[type=text],
+body div#media-items .media-item table.describe td textarea {
+	width: 315px;
+	border: 1px solid #999;
+}
+body div#media-items .media-item table.describe a.delete.button {
+	border: 1px solid #CCC;
+	color: #999;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+body div#media-items .media-item table.describe input[type=submit] {}
+body div#media-items .media-item table.describe tr.align td. {
+	text-align: left;
+	padding: 3px 1px;
+}
+body div#media-items .media-item table.describe tr.align td.field input[type=radio] {
+	margin:0;
+	position:relative;
+	top:2px;
+}
+body div#media-items .media-item table.describe tr.align td.field label {
+	clear: right;
+	font-size: 11px;
+	margin: 0 15px 0 0;
+}
+table.widefat tbody#the-list td.media-icon {
+	vertical-align: bottom;
+}
+body form#widgets-filter #available-widgets-filter {
+	border-bottom-color: #EEE;
+}
+body form#widgets-filter h3 {
+	margin-top: 0;
+}
+body form#widgets-filter .nav,
+body div#available-widgets .nav {}
+body form#widgets-filter .nav input.button-secondary {}
+body form#widgets-filter .nav input.button-secondary.delete:hover {}
+body form#widgets-filter .nav select {}
+body #widget-controls #current-widgets-head {
+	border: 1px solid #EEE;
+}
+body div#current-widgets {}
+body div#current-widgets ul.widget-control-list {
+	padding: 0;
+}
+body div#current-widgets ul.widget-control-list li {}
+body div#current-widgets ul.widget-control-list li+li {}
+body #widget-content #widget-list {}
+body #widget-content #widget-list li {}
+body #widget-content #widget-list h4.widget-title,
+body div#current-widgets ul.widget-control-list h4.widget-title {}
+body #widget-content #widget-list h4.widget-title a.widget-action {}
+body div#current-widgets ul.widget-control-list h4.widget-title a.widget-action {
+	text-transform: none;
+	position: absolute;
+	right: 11px;
+	color: #356;
+}
+body #widget-content #widget-list div.widget-description {
+	margin-left: 220px;
+	padding:0;
+	line-height: 24px;
+}
+body #widget-content #widget-list br.clear {
+	display:none;
+}
+#footer {padding: 0;}
+#footer p {margin: 0 auto; padding: 0;}
+#footer p:after {content:" | Alluric Admin by vagrantconcept.com";}
+#TB_window {z-index: 20000;}
+#TB_iframeContent {margin-top: -1px;}
+#TB_overlay {}
